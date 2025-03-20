@@ -18,12 +18,20 @@
   ],
   "sideEffects": false,
   "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
     "./bundle": {
       "types": "./dist/bundle.d.ts",
       "import": "./dist/bundle.mjs",
       "require": "./dist/bundle.cjs"
     }
   },
+  "main": "dist/bundle.cjs",
+  "module": "dist/bundle.mjs",
+  "types": "dist/bundle.d.ts",
   "files": [
     "dist"
   ],
