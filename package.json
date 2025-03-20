@@ -1,0 +1,51 @@
+{
+  "name": "@web5-team/pencil-finance-types",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.6.5",
+  "description": "Pencil finance types",
+  "author": "imba97",
+  "license": "MIT",
+  "homepage": "https://github.com/web5-blcokchain/pencil-finance-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:web5-blcokchain/pencil-finance-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/web5-blcokchain/pencil-finance-types/issues"
+  },
+  "keywords": [
+    "types"
+  ],
+  "sideEffects": false,
+  "exports": {
+    "./bundle": {
+      "types": "./dist/bundle.d.ts",
+      "import": "./dist/bundle.mjs",
+      "require": "./dist/bundle.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "stub": "unbuild --stub",
+    "build": "unbuild",
+    "test": "vitest",
+    "release": "bumpp",
+    "lint": "eslint --cache"
+  },
+  "devDependencies": {
+    "@imba97/eslint-config": "^0.0.6",
+    "@types/node": "^22.13.10",
+    "bumpp": "^10.1.0",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2",
+    "unbuild": "^3.5.0",
+    "vitest": "^3.0.9"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
