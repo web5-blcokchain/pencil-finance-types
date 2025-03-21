@@ -1,8 +1,8 @@
-export enum SeniorPayoutMethod {
+export enum BundleSeniorPayoutMethod {
   MONTHLY = 'monthly',
   QUARTERLY = 'quarterly'
 }
 
-export enum JuniorPayoutMethod {
+export enum BundleJuniorPayoutMethod {
   LUMP_SUM = 'lump_sum'
 }
