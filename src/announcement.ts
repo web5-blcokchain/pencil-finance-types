@@ -1,20 +1,13 @@
-export enum AnnouncementImportance {
+export enum AnnouncementType {
   /**
-   * 低重要性
+   * 链接
    */
-  LOW = 'low',
+  LINK = 'link',
+
   /**
-   * 正常重要性
+   * 文件
    */
-  NORMAL = 'normal',
-  /**
-   * 高重要性
-   */
-  HIGH = 'high',
-  /**
-   * 关键重要性
-   */
-  CRITICAL = 'critical'
+  FILE = 'file'
 }
 
 export enum AnnouncementStatus {
