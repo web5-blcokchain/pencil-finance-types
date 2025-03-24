@@ -1,4 +1,5 @@
 export * from './announcement'
 export * from './broker'
 export * from './bundle'
+export * from './transaction'
 export * from './user'
