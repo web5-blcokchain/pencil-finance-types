@@ -1,5 +1,5 @@
 export * from './announcement'
 export * from './broker'
-export * from './bundle'
+export * from './loan-bundle'
 export * from './transaction'
 export * from './user'
