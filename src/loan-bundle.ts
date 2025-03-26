@@ -50,3 +50,22 @@ export enum LoanBundleStatus {
    */
   COMPLETED = 'completed'
 }
+
+export enum LoanBundleInterestPaymentFrequency {
+  /**
+   * 月付
+   */
+  MONTHLY = 'monthly',
+  /**
+   * 季付
+   */
+  QUARTERLY = 'quarterly',
+  /**
+   * 年付
+   */
+  ANNUALLY = 'annually',
+  /**
+   * 到期付
+   */
+  MATURITY = 'maturity'
+}
