@@ -51,3 +51,15 @@ export enum TransactionType {
    */
   WITHDRAWAL = 'withdrawal'
 }
+
+export enum TransactionBuyType {
+  /**
+   * 初级
+   */
+  JUNIOR = 'junior',
+
+  /**
+   * 高级
+   */
+  SENIOR = 'senior'
+}
