@@ -1,5 +1,6 @@
 export * from './announcement'
 export * from './broker'
+export * from './chart-data'
 export * from './loan-bundle'
 export * from './transaction'
 export * from './user'
