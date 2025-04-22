@@ -42,9 +42,9 @@ export enum LoanBundleStatus {
    */
   REDEMPTION = 'redemption',
   /**
-   * 部分赎回
+   * 暂停
    */
-  PARTIALLY_REDEEMED = 'partially_redeemed',
+  PAUSE = 'pause',
   /**
    * 完成
    */
